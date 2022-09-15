@@ -1,6 +1,7 @@
 - name: Preparing the build-node
   hosts: '{{ instanse }}'
   become: true
+  remote_user: ubuntu
   vars:
     instanse: build
     repository: 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
