@@ -37,7 +37,7 @@
         - '{{ workdir }}:/usr/src/mymaven'
       auto_remove: true
       working_dir: /usr/src/mymaven
-      command: 'mvn clean install'
+      command: 'mvn package'
 
   - name: Wait for the artifact to be created
     ansible.builtin.wait_for:
