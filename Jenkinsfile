@@ -10,5 +10,9 @@ pipeline {
                 }
 			}
 		}
+		stage ('Build webapp image') {
+			steps {
+                sh 'sudo ansible-playbook build.yml'
+            }
 	}
 }
