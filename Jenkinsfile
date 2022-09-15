@@ -14,5 +14,6 @@ pipeline {
 			steps {
                 sh 'sudo ansible-playbook build.yml'
             }
+		}	
 	}
 }
