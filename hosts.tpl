@@ -1,9 +1,9 @@
 [build]
 %{ for ip in build ~}
-${ip}
+${ip} ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/AWS_ax.pem
 %{ endfor ~}
 
 [web]
 %{ for ip in web ~}
-${ip}
+${ip} ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/AWS_ax.pem
 %{ endfor ~}
