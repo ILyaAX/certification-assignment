@@ -1,0 +1,43 @@
+- name: Preparing the build-node
+  hosts: '{{ instanse }}'
+  become: true
+  vars:
+    instanse: build
+    repository: 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
+    package:
+      - 'python3-pip'      
+      - 'git'
+      - 'docker.io'
+    workdir: '/opt/app'
+
+  tasks:
+
+  - name: Make sure the packages are present
+    apt:
+      name: '{{ package }}'
+      state: present
+      cache_valid_time: 10000
+
+  - name: Install docker-py 
+    pip:
+      name: docker
+      executable: pip3
+
+  - name: Fetch application on git
+    git:
+      repo: '{{ repository }}'
+      dest: '{{ workdir }}'
+
+  - name: Creating a web application in a maven container
+    docker_container:
+      name: maven_build
+      image: maven:3.3-jdk-8
+      volumes:
+        - '{{ workdir }}:/usr/src/mymaven'
+      auto_remove: true
+      working_dir: /usr/src/mymaven
+      command: 'mvn clean install'
+
+  - name: Wait for the artifact to be created
+    ansible.builtin.wait_for:
+      path: '{{ workdir }}/target/hello-1.0.war'

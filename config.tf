@@ -19,11 +19,11 @@ resource "aws_instance" "build" {
   user_data = file("init.sh")
   
   tags = {
-    Name = "build-server"
+    Name = "build"
   }
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "app" {
   ami = "ami-09e67e426f25ce0d7"
   instance_type = "t2.micro"
   key_name = "AWS_ax"
@@ -31,7 +31,7 @@ resource "aws_instance" "web" {
   user_data = file("init.sh")
   
   tags = {
-    Name = "app-server"
+    Name = "app"
   }
 }
 
