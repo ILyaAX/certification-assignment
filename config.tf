@@ -68,10 +68,10 @@ resource "aws_security_group" "ssh_http_ingress" {
 }
 
 provisioner "local-exec" {
-    command = "echo '[build]' >> hosts"
-    command = "echo '${aws_instance.build.public_ip}' >> hosts"
-    command = "echo '[web]' >> hosts"
-    command = "echo '${aws_instance.web.public_ip}' >> hosts"
+    command = "echo '[build]' >> hosts \
+    echo '${aws_instance.build.public_ip}' >> hosts \
+    echo '[web]' >> hosts \
+    echo '${aws_instance.web.public_ip}' >> hosts" 
   }
 
 output "instance_public_ip" {
