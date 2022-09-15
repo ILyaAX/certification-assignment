@@ -67,9 +67,16 @@ resource "aws_security_group" "ssh_http_ingress" {
   }
 }
 
-provisioner "local-exec" {
-    command = 'echo '[build]' >> hosts \ echo '${aws_instance.build.public_ip}' >> hosts \ echo '[web]' >> hosts \ echo '${aws_instance.web.public_ip}' >> hosts' 
-  }
+# generate inventory file for Ansible
+resource "local_file" "hosts" {
+  content = templatefile("hosts.tpl",
+    {
+      build = aws_instance.build.*.public_ip
+      web = aws_instance.web.*.public_ip
+    }
+  )
+  filename = "hosts"
+}
 
 output "instance_public_ip" {
   description = "IP address web"
