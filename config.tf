@@ -77,8 +77,3 @@ resource "local_file" "hosts" {
   )
   filename = "hosts"
 }
-
-output "instance_public_ip" {
-  description = "IP address web"
-  value       = aws_instance.web.public_ip
-}
