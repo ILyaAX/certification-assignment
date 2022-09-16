@@ -10,6 +10,12 @@ pipeline {
                 }
 			}
 		}
+        stage ('Waiting for AWS to be created') {
+            steps {
+             echo 'Waiting 2 min for AWS to be created'
+             sleep 200
+             }
+          }
 		stage ('Build webapp image') {
 			steps {
                 sh 'sudo ansible-playbook -i hosts build.yml'

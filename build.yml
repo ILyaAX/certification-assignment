@@ -43,8 +43,16 @@
     ansible.builtin.wait_for:
       path: '{{ workdir }}/target/hello-1.0.war'
 
-#  - name: Build an image and push it to a private repo
-#    docker_image:
-#      build:
-#        path: ./sinatra
-#      source: build
+  - name: Ensure the Dockerfile is present
+    ansible.builtin.copy:
+      src: files/Dockerfile
+      dest: /opt/app/Dockerfile
+      owner: root
+      group: root
+      mode: '0644'
+
+  - name: Build the app image
+    docker_image:
+      build:
+        path: /opt/app/Dockerfile
+      source: build
