@@ -1,0 +1,558 @@
+Started by user [8mha:////4J+Jz2n5eBuVt7/lcHmufnUT8lRfG99vtuv0eVnp2H9/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfqZOZWJ8YnZxal5+WUAtPmxkMcAAAA=[0mIlya Aksenov
+Obtained Jenkinsfile from git https://github.com/ILyaAX/certification-assignment.git
+[8mha:////4J5u73Ol9wLfWnBRMmwzqvbeawWr4GAsWjXSiHD0+2r7AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4OGDQafZQtDlSm1us3qDL80kSLCx+ocWv9xgoITm9G2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4CF/q6hJdJLqXOROSj5e8y34yU8Lc4ow443JSkSRgz6wAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/certification-assignment
+[8mha:////4LJB9STWIBcwmIKmSfyMlB81qP+22JDIzrESg2uA7A1hAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LLwltqooKbm8Jdqh+jIXHx+KwF5ZgPP2iRqoyHsuBimAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Hqpn3olW4QYzoEawIRqfUF5oaJbDTHvXoMepkH63NVAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ey+K8nMBK31FGdqH0eyOBCPyt6ei+L73imfUZrAP92mAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/certification-assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ILyaAX/certification-assignment.git # timeout=10
+Fetching upstream changes from https://github.com/ILyaAX/certification-assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/ILyaAX/certification-assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 399bc3be58e71f72abbd0146ace18c0eb2c9ce72 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 399bc3be58e71f72abbd0146ace18c0eb2c9ce72 # timeout=10
+Commit message: "added waiting"
+ > git rev-list --no-walk 13e55d70382f84dcd3dd44bd14548c661baea341 # timeout=10
+[8mha:////4DzRsDXYceJUgjrOZkV6Fy5mP6bjtnGKG55/uZdvGOWFAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Ptz+4bkZytvweLHfud0xY8ho9mn1MDa1cE+v7YaPpZHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KIMYKz1TmnFeMAUe7urBTshKyLQZIJK/SqYwCcp9kiyAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4PPOMSx2PKXh0vjnc0m7i8xMiv8+uLGC9XP1+nzirCPLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4AEAAufbUjMXt+Rum9MjPexOG7vBg4+pN1SmFFQWP0tYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4GOpX8t+ko0nZ56RDOuQyUHxf5zfaz5cPWUYZ2cdzsTUAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Providing instances for the project)
+[8mha:////4Fd1A4ex6NclogRio8QuAosUFnsPilhD8RFxYJlIIrEMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withAWS
+Constructing AWS Credentials[8mha:////4LmhQRLMd4bxkUrLwkln9D/nWqQI25ZZxprCsZJDUlo6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4Cq4eq0h9iINXgKJt1+cTxNL3lNTDhURv+W9LY6E4ditAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ terraform init -input=false
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/aws from the dependency lock file
+- Reusing previous version of hashicorp/local from the dependency lock file
+- Using previously-installed hashicorp/aws v4.0.0
+- Using previously-installed hashicorp/local v2.2.3
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[8mha:////4ECOeTn6DsznwHgqAmzfBzHy+3ty2xpYV1/PfaC8adsXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ terraform plan -out=tf.plan -input=false
+[0m[1maws_security_group.ssh_http_ingress: Refreshing state... [id=sg-031ebf60c7428f4c7][0m
+[0m[1maws_instance.web: Refreshing state... [id=i-0c51d30444ccd9a9f][0m
+[0m[1maws_instance.build: Refreshing state... [id=i-0487a4bda8658c2cc][0m
+[0m[1mlocal_file.hosts: Refreshing state... [id=ebfb8b90eef4a92c2946aba6cc323bbbb12b8d9f][0m
+[0m
+[1m[36mNote:[0m[1m Objects have changed outside of Terraform[0m
+
+[0mTerraform detected the following changes made outside of Terraform since the
+last "terraform apply" which may have affected this plan:
+
+[1m  # aws_instance.build[0m has been deleted[0m[0m
+[0m  [31m-[0m[0m resource "aws_instance" "build" {
+      [31m-[0m [0m[1m[0mami[0m[0m                                  = "ami-09e67e426f25ce0d7" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:139080729692:instance/i-0487a4bda8658c2cc" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0massociate_public_ip_address[0m[0m          = true [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mavailability_zone[0m[0m                    = "us-east-1c" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcpu_core_count[0m[0m                       = 1 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcpu_threads_per_core[0m[0m                 = 1 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mdisable_api_termination[0m[0m              = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mebs_optimized[0m[0m                        = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mget_password_data[0m[0m                    = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mhibernation[0m[0m                          = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                                   = "i-0487a4bda8658c2cc" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_state[0m[0m                       = "running" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_type[0m[0m                        = "t2.micro" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mipv6_address_count[0m[0m                   = 0 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mipv6_addresses[0m[0m                       = [] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mkey_name[0m[0m                             = "AWS_ax" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mmonitoring[0m[0m                           = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprimary_network_interface_id[0m[0m         = "eni-0e08b68de8733c673" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprivate_dns[0m[0m                          = "ip-172-31-27-80.ec2.internal" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprivate_ip[0m[0m                           = "172.31.27.80" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpublic_dns[0m[0m                           = "ec2-34-229-12-57.compute-1.amazonaws.com" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpublic_ip[0m[0m                            = "34.229.12.57" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msecondary_private_ips[0m[0m                = [] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msecurity_groups[0m[0m                      = [
+          [31m-[0m [0m"ssh_http_ingress",
+        ] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msource_dest_check[0m[0m                    = true [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msubnet_id[0m[0m                            = "subnet-0c9655674a3299660" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags[0m[0m                                 = {
+          [31m-[0m [0m"Name" = "build"
+        } [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags_all[0m[0m                             = {
+          [31m-[0m [0m"Name" = "build"
+        } [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtenancy[0m[0m                              = "default" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mvpc_security_group_ids[0m[0m               = [
+          [31m-[0m [0m"sg-031ebf60c7428f4c7",
+        ] [90m->[0m [0m[90mnull[0m[0m
+
+      [31m-[0m [0mcapacity_reservation_specification {
+          [31m-[0m [0m[1m[0mcapacity_reservation_preference[0m[0m = "open" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mcredit_specification {
+          [31m-[0m [0m[1m[0mcpu_credits[0m[0m = "standard" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0menclave_options {
+          [31m-[0m [0m[1m[0menabled[0m[0m = false [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mmetadata_options {
+          [31m-[0m [0m[1m[0mhttp_endpoint[0m[0m               = "enabled" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = 1 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mhttp_tokens[0m[0m                 = "optional" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0minstance_metadata_tags[0m[0m      = "disabled" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mroot_block_device {
+          [31m-[0m [0m[1m[0mdelete_on_termination[0m[0m = true [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mdevice_name[0m[0m           = "/dev/sda1" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mencrypted[0m[0m             = false [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0miops[0m[0m                  = 100 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mtags[0m[0m                  = {} [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mthroughput[0m[0m            = 0 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_id[0m[0m             = "vol-0057a9aeb6448cccc" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_size[0m[0m           = 8 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_type[0m[0m           = "gp2" [90m->[0m [0m[90mnull[0m[0m
+        }
+    }
+
+[1m  # aws_instance.web[0m has been deleted[0m[0m
+[0m  [31m-[0m[0m resource "aws_instance" "web" {
+      [31m-[0m [0m[1m[0mami[0m[0m                                  = "ami-09e67e426f25ce0d7" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:139080729692:instance/i-0c51d30444ccd9a9f" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0massociate_public_ip_address[0m[0m          = true [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mavailability_zone[0m[0m                    = "us-east-1c" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcpu_core_count[0m[0m                       = 1 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcpu_threads_per_core[0m[0m                 = 1 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mdisable_api_termination[0m[0m              = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mebs_optimized[0m[0m                        = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mget_password_data[0m[0m                    = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mhibernation[0m[0m                          = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                                   = "i-0c51d30444ccd9a9f" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_state[0m[0m                       = "running" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0minstance_type[0m[0m                        = "t2.micro" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mipv6_address_count[0m[0m                   = 0 [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mipv6_addresses[0m[0m                       = [] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mkey_name[0m[0m                             = "AWS_ax" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mmonitoring[0m[0m                           = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprimary_network_interface_id[0m[0m         = "eni-0cdf33c8e38a8f5c7" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprivate_dns[0m[0m                          = "ip-172-31-29-31.ec2.internal" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprivate_ip[0m[0m                           = "172.31.29.31" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpublic_dns[0m[0m                           = "ec2-54-226-217-182.compute-1.amazonaws.com" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpublic_ip[0m[0m                            = "54.226.217.182" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msecondary_private_ips[0m[0m                = [] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msecurity_groups[0m[0m                      = [
+          [31m-[0m [0m"ssh_http_ingress",
+        ] [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msource_dest_check[0m[0m                    = true [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msubnet_id[0m[0m                            = "subnet-0c9655674a3299660" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags[0m[0m                                 = {
+          [31m-[0m [0m"Name" = "web"
+        } [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags_all[0m[0m                             = {
+          [31m-[0m [0m"Name" = "web"
+        } [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtenancy[0m[0m                              = "default" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mvpc_security_group_ids[0m[0m               = [
+          [31m-[0m [0m"sg-031ebf60c7428f4c7",
+        ] [90m->[0m [0m[90mnull[0m[0m
+
+      [31m-[0m [0mcapacity_reservation_specification {
+          [31m-[0m [0m[1m[0mcapacity_reservation_preference[0m[0m = "open" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mcredit_specification {
+          [31m-[0m [0m[1m[0mcpu_credits[0m[0m = "standard" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0menclave_options {
+          [31m-[0m [0m[1m[0menabled[0m[0m = false [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mmetadata_options {
+          [31m-[0m [0m[1m[0mhttp_endpoint[0m[0m               = "enabled" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = 1 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mhttp_tokens[0m[0m                 = "optional" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0minstance_metadata_tags[0m[0m      = "disabled" [90m->[0m [0m[90mnull[0m[0m
+        }
+
+      [31m-[0m [0mroot_block_device {
+          [31m-[0m [0m[1m[0mdelete_on_termination[0m[0m = true [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mdevice_name[0m[0m           = "/dev/sda1" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mencrypted[0m[0m             = false [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0miops[0m[0m                  = 100 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mtags[0m[0m                  = {} [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mthroughput[0m[0m            = 0 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_id[0m[0m             = "vol-0677479b2fecdf787" [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_size[0m[0m           = 8 [90m->[0m [0m[90mnull[0m[0m
+          [31m-[0m [0m[1m[0mvolume_type[0m[0m           = "gp2" [90m->[0m [0m[90mnull[0m[0m
+        }
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the
+relevant attributes using ignore_changes, the following plan may include
+actions to undo or respond to these changes.
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[31m-[0m/[32m+[0m destroy and then create replacement
+[0m
+Terraform will perform the following actions:
+
+[1m  # aws_instance.build[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_instance" "build" {
+      [32m+[0m [0m[1m[0mami[0m[0m                                  = "ami-09e67e426f25ce0d7"
+      [32m+[0m [0m[1m[0marn[0m[0m                                  = (known after apply)
+      [32m+[0m [0m[1m[0massociate_public_ip_address[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_core_count[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_threads_per_core[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mdisable_api_termination[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mebs_optimized[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mget_password_data[0m[0m                    = false
+      [32m+[0m [0m[1m[0mhost_id[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                                   = (known after apply)
+      [32m+[0m [0m[1m[0minstance_initiated_shutdown_behavior[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0minstance_state[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0minstance_type[0m[0m                        = "t2.micro"
+      [32m+[0m [0m[1m[0mipv6_address_count[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_addresses[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mkey_name[0m[0m                             = "AWS_ax"
+      [32m+[0m [0m[1m[0mmonitoring[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0moutpost_arn[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0mpassword_data[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_group[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_partition_number[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mprimary_network_interface_id[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_dns[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_ip[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_dns[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_ip[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0msecondary_private_ips[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0msource_dest_check[0m[0m                    = true
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0mtags[0m[0m                                 = {
+          [32m+[0m [0m"Name" = "build"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                             = {
+          [32m+[0m [0m"Name" = "build"
+        }
+      [32m+[0m [0m[1m[0mtenancy[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0muser_data[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0muser_data_base64[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_security_group_ids[0m[0m               = [
+          [32m+[0m [0m"sg-031ebf60c7428f4c7",
+        ]
+
+      [32m+[0m [0mcapacity_reservation_specification {
+          [32m+[0m [0m[1m[0mcapacity_reservation_preference[0m[0m = (known after apply)
+
+          [32m+[0m [0mcapacity_reservation_target {
+              [32m+[0m [0m[1m[0mcapacity_reservation_id[0m[0m = (known after apply)
+            }
+        }
+
+      [32m+[0m [0mebs_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0msnapshot_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+
+      [32m+[0m [0menclave_options {
+          [32m+[0m [0m[1m[0menabled[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mephemeral_block_device {
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0mno_device[0m[0m    = (known after apply)
+          [32m+[0m [0m[1m[0mvirtual_name[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mmetadata_options {
+          [32m+[0m [0m[1m[0mhttp_endpoint[0m[0m               = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_tokens[0m[0m                 = (known after apply)
+          [32m+[0m [0m[1m[0minstance_metadata_tags[0m[0m      = (known after apply)
+        }
+
+      [32m+[0m [0mnetwork_interface {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_index[0m[0m          = (known after apply)
+          [32m+[0m [0m[1m[0mnetwork_interface_id[0m[0m  = (known after apply)
+        }
+
+      [32m+[0m [0mroot_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+    }
+
+[1m  # aws_instance.web[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_instance" "web" {
+      [32m+[0m [0m[1m[0mami[0m[0m                                  = "ami-09e67e426f25ce0d7"
+      [32m+[0m [0m[1m[0marn[0m[0m                                  = (known after apply)
+      [32m+[0m [0m[1m[0massociate_public_ip_address[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_core_count[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_threads_per_core[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mdisable_api_termination[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mebs_optimized[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mget_password_data[0m[0m                    = false
+      [32m+[0m [0m[1m[0mhost_id[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                                   = (known after apply)
+      [32m+[0m [0m[1m[0minstance_initiated_shutdown_behavior[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0minstance_state[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0minstance_type[0m[0m                        = "t2.micro"
+      [32m+[0m [0m[1m[0mipv6_address_count[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_addresses[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mkey_name[0m[0m                             = "AWS_ax"
+      [32m+[0m [0m[1m[0mmonitoring[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0moutpost_arn[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0mpassword_data[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_group[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_partition_number[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mprimary_network_interface_id[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_dns[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_ip[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_dns[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_ip[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0msecondary_private_ips[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0msource_dest_check[0m[0m                    = true
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0mtags[0m[0m                                 = {
+          [32m+[0m [0m"Name" = "web"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                             = {
+          [32m+[0m [0m"Name" = "web"
+        }
+      [32m+[0m [0m[1m[0mtenancy[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0muser_data[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0muser_data_base64[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_security_group_ids[0m[0m               = [
+          [32m+[0m [0m"sg-031ebf60c7428f4c7",
+        ]
+
+      [32m+[0m [0mcapacity_reservation_specification {
+          [32m+[0m [0m[1m[0mcapacity_reservation_preference[0m[0m = (known after apply)
+
+          [32m+[0m [0mcapacity_reservation_target {
+              [32m+[0m [0m[1m[0mcapacity_reservation_id[0m[0m = (known after apply)
+            }
+        }
+
+      [32m+[0m [0mebs_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0msnapshot_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+
+      [32m+[0m [0menclave_options {
+          [32m+[0m [0m[1m[0menabled[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mephemeral_block_device {
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0mno_device[0m[0m    = (known after apply)
+          [32m+[0m [0m[1m[0mvirtual_name[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mmetadata_options {
+          [32m+[0m [0m[1m[0mhttp_endpoint[0m[0m               = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_tokens[0m[0m                 = (known after apply)
+          [32m+[0m [0m[1m[0minstance_metadata_tags[0m[0m      = (known after apply)
+        }
+
+      [32m+[0m [0mnetwork_interface {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_index[0m[0m          = (known after apply)
+          [32m+[0m [0m[1m[0mnetwork_interface_id[0m[0m  = (known after apply)
+        }
+
+      [32m+[0m [0mroot_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+    }
+
+[1m  # local_file.hosts[0m must be [1m[31mreplaced[0m[0m
+[0m[31m-[0m/[32m+[0m[0m resource "local_file" "hosts" {
+      [33m~[0m [0m[1m[0mcontent[0m[0m              = <<-EOT
+            [build]
+            34.229.12.57 ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/AWS_ax.pem
+            
+            [web]
+            54.226.217.182 ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/AWS_ax.pem
+        EOT [33m->[0m [0m(known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m [0m[1m[0mid[0m[0m                   = "ebfb8b90eef4a92c2946aba6cc323bbbb12b8d9f" [33m->[0m [0m(known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[0m[1mPlan:[0m 3 to add, 0 to change, 1 to destroy.
+[0m[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Saved the plan to: tf.plan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "tf.plan"
+[8mha:////4GWpZAqhgnickYasFvSdRqm6WxIHnaNOt62hutpVwz3sAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q08zss7vgAAAA==[0m[Pipeline] sh
++ terraform apply -input=false tf.plan
+[0m[1mlocal_file.hosts: Destroying... [id=ebfb8b90eef4a92c2946aba6cc323bbbb12b8d9f][0m[0m
+[0m[1mlocal_file.hosts: Destruction complete after 0s[0m
+[0m[1maws_instance.web: Creating...[0m[0m
+[0m[1maws_instance.build: Creating...[0m[0m
+[0m[1maws_instance.build: Still creating... [10s elapsed][0m[0m
+[0m[1maws_instance.web: Still creating... [10s elapsed][0m[0m
+[0m[1maws_instance.web: Still creating... [20s elapsed][0m[0m
+[0m[1maws_instance.build: Still creating... [20s elapsed][0m[0m
+[0m[1maws_instance.build: Still creating... [30s elapsed][0m[0m
+[0m[1maws_instance.web: Still creating... [30s elapsed][0m[0m
+[0m[1maws_instance.build: Creation complete after 37s [id=i-0f6ddcf535df2802f][0m
+[0m[1maws_instance.web: Creation complete after 37s [id=i-0be5b6f690dbcc648][0m
+[0m[1mlocal_file.hosts: Creating...[0m[0m
+[0m[1mlocal_file.hosts: Creation complete after 0s [id=42c38423a675e38b72d99b67d49a770b66b391e4][0m
+[0m[1m[32m
+Apply complete! Resources: 3 added, 0 changed, 1 destroyed.
+[0m
+[8mha:////4N72KgPLKb8LDdvuQWE1A3miVf2gz+z9zz8SvLlU6BKjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] }
+[8mha:////4NZdbyXxdKHo5npN4/155+OTkMEZ/zW/l9iqfRJBdBEcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPj15byC+AAAA[0m[Pipeline] // withAWS
+[8mha:////4E8MX/2fWQZiZLt6nxT/Oh8wTVSTmCN6Z0eT67k7oOzZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNzXuerDBzs/V3W+AAAA[0m[Pipeline] }
+[8mha:////4GtBH79o27vBZ1NGOpbFASfGUb4Vq87KyE+LkukslOcWAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaREVreWGF5jkME6sO2M7OBUv4mv8AYtIVGyx2tlmXm9YxwBHDkYMSKOl2Fnh3WTKEpnDeHWcxcAX0TFFdigUZsU9nhZUnBCWVDWsJGyQOsfRkkmwlYN+6MZpMs05hfIdJNS2v8MTKlnMSYf0hTnA7jb1kenn+SuA2fsEdduW2rcfA33EhL4AAAA=[0m[Pipeline] // stage
+[8mha:////4LngeeaRlBMs5Qd5zr4rHcwEKuJx92CmA6l1PSWgZMEmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu32n2f1BlfFHmHCAAAA[0m[Pipeline] stage
+[8mha:////4C0mxiuE5cqrrsUZpOvyUttYSsExHgCHhsI31Ea5BydDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Waiting for developments)
+[8mha:////4GI9uexcfEzfs6YlnyVFAyCYxmoSfQ/F7dJDiBrkSVrHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] echo
+Waiting 2 min
+[8mha:////4MV2p3wFXMIexGeyGDjNchxC4wUnoCHI/oAw6n1GYvcLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAG8UfaPvgAAAA==[0m[Pipeline] sleep
+Sleeping for 2 min 0 sec
+[8mha:////4OKBF953f5oa+hM7/S8RxV44GzXrXde0+E70niJ99ZB2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1GGkcWvgAAAA==[0m[Pipeline] }
+[8mha:////4OoW1+set+G4D/HA/3gtGjcxKt28e76RlzK9bVSwKQwVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwPXV5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4N9EMsq5e/4oWwFkib2rbLsu1YFeVfTjjICFGbqj7tEhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUOIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5RNk223/zyrNzHmhcDCAAAA[0m[Pipeline] stage
+[8mha:////4Ac2Y32gHjD94LfNZpG6OfmkfN0cxPjupDqLn22vMHgdAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Build webapp image)
+[8mha:////4CLmdz3f0YHJizbgmq1duhTGyuZbOqtfkka+QnRFxJHaAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] ansiblePlaybook
+[certification-assignment] $ ansible-playbook build.yml -i hosts -b --become-user root --private-key /var/lib/jenkins/workspace/certification-assignment/ssh5943170517708511920.key -u ubuntu
+
+PLAY [Preparing the build-node] ************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [54.160.137.182]
+
+TASK [Make sure the packages are present] **************************************
+changed: [54.160.137.182]
+
+TASK [Install docker-py] *******************************************************
+changed: [54.160.137.182]
+
+TASK [Fetch application on git] ************************************************
+changed: [54.160.137.182]
+
+TASK [Creating a web application in a maven container] *************************
+changed: [54.160.137.182]
+
+TASK [Wait for the artifact to be created] *************************************
+ok: [54.160.137.182]
+
+TASK [Ensure the Dockerfile is present] ****************************************
+changed: [54.160.137.182]
+
+TASK [Log into DockerHub] ******************************************************
+changed: [54.160.137.182]
+
+TASK [Build the app image] *****************************************************
+changed: [54.160.137.182]
+
+PLAY RECAP *********************************************************************
+54.160.137.182             : ok=9    changed=7    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4KXEQloq/PLXSzWx2zBEb/UHf/oc8bz4drBhpy1bvIeAAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4BbwTY9oaKgh97Nk7v4OUQsQKlgdhQmzPGcdwPwwnQtzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AYJfoOuxOr8XEOzhTwrLQYwoLbhxehSfIyUrR+8WDOAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5RNk223/zyrN1v+bNrCAAAA[0m[Pipeline] stage
+[8mha:////4OcTdz9gluq426iG8pR7I8Rabg+A0OqzJ0tjWUCxAiqvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Run webapp image)
+[8mha:////4BhGefWcAShVZ1jQMxm3uL3YnqBRPEkLC7T7+widbtY0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] ansiblePlaybook
+[certification-assignment] $ ansible-playbook stage.yml -i hosts -b --become-user root --private-key /var/lib/jenkins/workspace/certification-assignment/ssh16123253602402386887.key -u ubuntu
+
+PLAY [Preparing the stage node] ************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [34.230.29.134]
+
+TASK [Make sure the packages are present] **************************************
+changed: [34.230.29.134]
+
+TASK [Install docker-py] *******************************************************
+changed: [34.230.29.134]
+
+TASK [Start app] ***************************************************************
+changed: [34.230.29.134]
+
+PLAY RECAP *********************************************************************
+34.230.29.134              : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4FjWUQJogzYdkiTiOLuJhElYFL+KouPvvzsfXTeM6YnYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQElECzevgAAAA==[0m[Pipeline] }
+[8mha:////4B2P+TNGgMlgXPZoA0gX91PbR3twZUSJPOdAPXflySw7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFmkn1YvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J5iDuuaoaK/jBbKogQ28FgvCUUWyhNTTgvinq06Cp2pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHO133RvgAAAA==[0m[Pipeline] }
+[8mha:////4EYrUwTCps90oGKw7EEJwpC5ArolHkG77d9ZK2qk0t1nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISJDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPx6I0kS+AAAA[0m[Pipeline] // withEnv
+[8mha:////4FIUDyLJYbTuR9OcskgI459dqPi6cTaEX4w0yNQSVvQ2AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEhM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAhpPov70AAAA=[0m[Pipeline] }
+[8mha:////4H2XS7hvcImR+v6KwxBq1GZLbyrUCanFINl5RlqR3A5sAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcB9XwsZr0AAAA=[0m[Pipeline] // node
+[8mha:////4Gu46ExaTYFdAEpxO/jM7nwgOH8hjuH7soKds5y7For/AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q73eCbPsB02VLLL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
