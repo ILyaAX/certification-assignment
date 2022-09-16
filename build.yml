@@ -55,7 +55,7 @@
     docker_image:
       name: 'boxfuse'
       build:
-        path: /opt/app/Dockerfile
+        path: /opt/app/
         pull: false
       source: build
     become: true
