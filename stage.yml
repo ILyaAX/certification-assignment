@@ -21,4 +21,9 @@
       name: docker
       executable: pip3
 
-  
+  - name: Start app
+    docker_container:
+      name: boxfuse
+      image: ilyaax/boxfuse
+      ports:
+        - "80:8080"
