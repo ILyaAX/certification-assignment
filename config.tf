@@ -16,7 +16,6 @@ resource "aws_instance" "build" {
   instance_type = "t2.micro"
   key_name = "AWS_ax"
   vpc_security_group_ids = [aws_security_group.ssh_http_ingress.id]
-  user_data = file("init.sh")
   
   tags = {
     Name = "build"
@@ -28,7 +27,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   key_name = "AWS_ax"
   vpc_security_group_ids = [aws_security_group.ssh_http_ingress.id]
-  user_data = file("init.sh")
   
   tags = {
     Name = "web"

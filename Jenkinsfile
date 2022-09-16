@@ -12,8 +12,8 @@ pipeline {
 		}
         stage ('Waiting for AWS to be created') {
             steps {
-             echo 'Waiting 2 min for AWS to be created'
-             sleep 200
+             echo 'Waiting 5 min for AWS to be created'
+             sleep 300
              }
           }
 		stage ('Build webapp image') {
