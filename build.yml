@@ -53,6 +53,7 @@
 
   - name: Build the app image
     docker_image:
+      name: 'boxfuse'
       build:
         path: /opt/app/Dockerfile
       source: build
