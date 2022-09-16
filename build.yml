@@ -51,10 +51,17 @@
       group: ubuntu
       mode: '0644'
 
+  - name: Log into DockerHub 
+    docker_login:
+      username: 'ilyaax'
+      password: "{{ lookup('env','docker_hub_pass') }}"
+
   - name: Build the app image
     docker_image:
-      name: 'boxfuse'
+      name: 'ilyaax/boxfuse'
+      tag: 'latest'
+      push: true
       build:
         path: /opt/app/
-        pull: false
+        pull: true
       source: build

@@ -1,0 +1,24 @@
+- name: Preparing the stage node
+  hosts: '{{ instanse }}'
+  become: true
+  remote_user: ubuntu
+  vars:
+    instanse: web
+    package:
+      - 'python3-pip'      
+      - 'docker.io'
+
+  tasks:
+
+  - name: Make sure the packages are present
+    apt:
+      name: '{{ package }}'
+      state: present
+      cache_valid_time: 10000
+
+  - name: Install docker-py 
+    pip:
+      name: docker
+      executable: pip3
+
+  
