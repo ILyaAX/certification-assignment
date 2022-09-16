@@ -69,7 +69,7 @@ resource "aws_security_group" "ssh_http_ingress" {
 
 # generate inventory file for Ansible
 resource "local_file" "hosts" {
-  content = templatefile("hosts.tpl",
+  content = templatefile("templates/hosts.tpl",
     {
       build = aws_instance.build.*.public_ip
       web = aws_instance.web.*.public_ip
