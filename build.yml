@@ -43,8 +43,8 @@
     ansible.builtin.wait_for:
       path: '{{ workdir }}/target/hello-1.0.war'
 
-  - name: Build an image and push it to a private repo
-    docker_image:
-      build:
-        path: ./sinatra
-      source: build
+#  - name: Build an image and push it to a private repo
+#    docker_image:
+#      build:
+#        path: ./sinatra
+#      source: build
