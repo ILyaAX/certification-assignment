@@ -47,8 +47,8 @@
     ansible.builtin.copy:
       src: files/Dockerfile
       dest: /opt/app/Dockerfile
-      owner: root
-      group: root
+      owner: ubuntu
+      group: ubuntu
       mode: '0644'
 
   - name: Build the app image
@@ -57,3 +57,4 @@
       build:
         path: /opt/app/Dockerfile
       source: build
+    become: true
