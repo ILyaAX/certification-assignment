@@ -13,7 +13,7 @@ pipeline {
         
 		stage ('Build webapp image') {
 			steps {
-                sh 'sudo ansible-playbook -i hosts build.yml'
+                ansiblePlaybook become: true, credentialsId: '48e5872b-378a-4763-9a0e-45a67aa1c7e6', inventory: 'hosts', playbook: 'build.yml'
             }
 		}	
 	}
